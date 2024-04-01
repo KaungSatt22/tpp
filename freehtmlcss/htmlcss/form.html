@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      label {
+        display: block;
+      }
+      .container {
+        width: 50%;
+        margin: auto;
+      }
+      form {
+        width: 40%;
+        margin: auto;
+        border-radius: 10px;
+        background: #f0eeee;
+        padding: 40px;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border-color: gray;
+        border-radius: 5px;
+        outline: none;
+        border-width: 2px;
+        border-style: solid;
+      }
+      textarea {
+        width: 100%;
+        outline: none;
+      }
+      .btn {
+        background: green;
+        text-align: center;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      input[type="email"] {
+        border-color: cadetblue;
+      }
+      input[type="tel"] {
+        border-color: red;
+      }
+      input[type="text"] {
+        border-color: yellow;
+      }
+      input:hover {
+        border-color: rgb(72, 255, 0);
+      }
+      input[type="date"] {
+        border-color: blue;
+      }
+      p:hover {
+        color: cadetblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <h1>Student Registration Form</h1>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" required />
+        </div>
+        <div>
+          <label for="date">Date of Birth</label>
+          <input type="date" id="date" required />
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <textarea id="address" cols="30" rows="10" required></textarea>
+        </div>
+        <input type="button" value="Register" class="btn" />
+      </form>
+    </div>
+    <p>Hello world</p>
+  </body>
+</html>

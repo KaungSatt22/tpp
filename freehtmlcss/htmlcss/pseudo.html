@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesudo</title>
+    <style>
+      /* ul {
+        list-style: none;
+      }
+      ul > li {
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      li:first-child {
+        background-color: red;
+      }
+      li:last-child {
+        background-color: blue;
+      }
+      li:nth-child(even) {
+        background-color: #efefef;
+      }
+      li:nth-child(odd) {
+        background-color: brown;
+      }
+      li:nth-child(2n) {
+        background-color: cornflowerblue;
+      } */
+      ul {
+        list-style: inside;
+      }
+      /* li {
+        position: relative;
+        padding-left: 18px;
+      }
+      li::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        left: 5px;
+        background: #f00;
+        transform: rotate(45deg);
+      } */
+      div {
+        border: 2px solid #000;
+        background-image: url("https://images.unsplash.com/photo-1574169208507-84376144848b?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-attachment: fixed;
+        height: 30vh;
+
+        /* border-width: 5px 10px;
+        border-style: solid;
+        border-color: #000; */
+      }
+      p {
+        text-indent: 10px;
+        line-height: 20px;
+      }
+      h2::before {
+        margin-right: 5px;
+        content: "ABC";
+        color: #f00;
+      }
+      h2::after {
+        content: "EFG";
+        margin-left: 5px;
+        color: aqua;
+      }
+      span {
+        color: red;
+        font-weight: bold;
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li>10</li>
+    </ul>
+    <div>
+      <p>Hello world</p>
+    </div>
+    <h2>Title</h2>
+    <div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
+        vitae neque doloremque nostrum at veniam vel rerum voluptatem. Sit
+        excepturi modi <span>impedit</span> officia amet aliquam, totam
+        repudiandae cum commodi quaerat.
+      </p>
+    </div>
+  </body>
+</html>

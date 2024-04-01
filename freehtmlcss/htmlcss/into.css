@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+}
+p {
+  color: blueviolet;
+}
+
+li {
+  color: red;
+}
+
+li > ul > li {
+  color: yellow;
+}
+
+/* h1 + p {
+  color: chartreuse;
+} */
+
+h1 ~ p {
+  color: aquamarine;
+}
