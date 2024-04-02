@@ -134,7 +134,7 @@ a {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -267,4 +267,15 @@ body {
 }
 .copyright address {
   font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  .card-container__card {
+    width: calc(50% - 4px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-container__card {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
