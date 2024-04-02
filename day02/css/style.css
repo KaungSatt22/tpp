@@ -143,8 +143,10 @@ body {
 }
 .logo h1 {
   text-align: center;
-  color: #ffffff;
   padding: 20px 0;
+}
+.logo h1 a {
+  color: #ffffff;
 }
 
 .nav-container {
@@ -164,22 +166,23 @@ body {
   padding: 20px;
   position: relative;
 }
-.navbar__item:hover .line {
+.navbar__item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.navbar__item:hover::after {
   opacity: 1;
 }
 .navbar__item a {
   color: #000;
   font-weight: 600;
-}
-.navbar__item .line {
-  position: absolute;
-  width: 100%;
-  height: 10px;
-  background-color: #000;
-  left: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
 }
 
 .container {
