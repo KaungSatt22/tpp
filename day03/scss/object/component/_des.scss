@@ -1,0 +1,19 @@
+@import "../utility/fbox";
+
+.c-des {
+  @include fbox(column);
+  padding: 55px 0;
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    margin-top: 20px;
+    width: 790px;
+    text-align: center;
+    font-size: 16px;
+  }
+  &--01 {
+    height: 273px;
+    background-color: #fafafa;
+  }
+}
