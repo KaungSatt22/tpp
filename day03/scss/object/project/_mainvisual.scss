@@ -1,5 +1,5 @@
 .mainvistual {
-  background-image: url("../../../img/mainvisual-bg.png");
+  background-image: url("../img/mainvisual-bg.png");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
   margin: 0 auto;
 
   &__text {
-    height: 80%;
+    height: 60%;
     @include fbox(column, center, center);
     color: $whiteColor;
     h2 {

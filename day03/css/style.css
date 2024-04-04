@@ -306,7 +306,7 @@ table {
 }
 
 .mainvistual {
-  background-image: url("../../../img/mainvisual-bg.png");
+  background-image: url("../img/mainvisual-bg.png");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -314,7 +314,7 @@ table {
   margin: 0 auto;
 }
 .mainvistual__text {
-  height: 80%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,7 +348,7 @@ table {
 }
 
 .video {
-  background-image: url("../../../img/Image.png");
+  background-image: url("../img/Image.png");
   width: 100%;
   height: 100%;
   background-position: center;
