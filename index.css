@@ -1,0 +1,22 @@
+form {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  gap: 20px;
+}
+.input-box {
+  padding: 20px;
+}
+.input-box label {
+  margin-right: 50px;
+}
+.input-box input {
+  padding: 10px;
+}
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+.error {
+  color: red;
+}

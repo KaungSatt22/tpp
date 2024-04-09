@@ -1,7 +1,0 @@
-@mixin fbox($direction: row, $ditem: center, $djust: center) {
-  display: flex;
-  align-items: $ditem;
-  justify-content: $djust;
-  flex-direction: $direction;
-  flex-wrap: wrap;
-}
